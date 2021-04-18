@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/darker_gray"
+    android:paddingTop="?attr/actionBarSize"
+    android:dividerHeight="5dp"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewreport"
+            android:title=" Report"
+            android:icon="@drawable/report"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <item
+            android:id="@+id/viewcategory"
+            android:title=" AddCategory"
+            android:textColor="@color/black"
+            android:icon="@drawable/category"
+            android:textStyle="bold"
+            />
+
+        <item
+            android:id="@+id/viewsubcategory"
+            android:title="AddSubCategory"
+            android:textColor="@color/black"
+            android:icon="@drawable/sucategory"
+            android:textStyle="bold"
+            />
+
+        <item
+            android:id="@+id/viewUser"
+            android:title="AddUser "
+            android:textColor="@color/black"
+            android:icon="@drawable/adduser"
+            android:textStyle="bold"
+            /> <item
+        android:id="@+id/viewmystock"
+        android:title="MyStock "
+        android:textColor="@color/black"
+        android:icon="@drawable/stocks"
+        android:textStyle="bold"
+        />
+        <item
+            android:id="@+id/viewsellstock"
+            android:title="Mysell Stock "
+            android:textColor="@color/black"
+            android:icon="@drawable/sellstock"
+            android:textStyle="bold"
+            />
+        <item
+            android:id="@+id/viewhystory"
+            android:title="Product History "
+            android:textColor="@color/black"
+            android:icon="@drawable/productmanagement"
+            android:textStyle="bold"
+            />
+        <item
+            android:id="@+id/viewUS"
+            android:title="About US "
+            android:textColor="@color/black"
+            android:icon="@drawable/askquestion"
+            android:textStyle="bold"
+            />
+        <item
+            android:id="@+id/Quit"
+            android:title="Quit"
+            android:textColor="@color/black"
+            android:icon="@drawable/closewindow"
+            android:textStyle="bold"
+            />
+    </group>
+
+</menu>

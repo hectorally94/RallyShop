@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prospect.rallyshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shopping"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RallyShop">
+        <activity android:name=".Login"
+            android:theme="@style/NoActionBar"></activity>
+        <activity android:name=".ActivityAdmin.AboutUSAdmin"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.AoutUS"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.AlartProduct"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.Stock"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.SoldProduct"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.SimpleProduct"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.Category"
+            android:theme="@style/NoActionBar">
+        </activity>
+        <activity android:name=".ActivityAdmin.Splash"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.ProductHistory"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.MySellStock"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.MyStock"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.AddUser"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.AddProduct"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.AddSuCategories"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.AddCategories"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".ActivityAdmin.Report"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

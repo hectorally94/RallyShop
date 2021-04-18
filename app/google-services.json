@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13728400520",
+    "firebase_url": "https://onsale-c88e4.firebaseio.com",
+    "project_id": "onsale-c88e4",
+    "storage_bucket": "onsale-c88e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13728400520:android:09afb043f70a79732ecb3d",
+        "android_client_info": {
+          "package_name": "com.prospect.rallyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13728400520-a5e2ifne4ok6p3jakaqoiektmvrgukof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL1AqFXJ90vffIlmKmUp7EBWszu9Mk1_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13728400520-a5e2ifne4ok6p3jakaqoiektmvrgukof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
